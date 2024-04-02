@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254794316375";
 
 
 
@@ -46,14 +46,14 @@ global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/758549f0d
 global.waPresence= process.env.WAPRESENCE ||  "available" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
-global.readmessage = process.env.READ_MESSAGE || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
+global.readmessage = process.env.READ_MESSAGE || "true"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
